@@ -105,8 +105,6 @@ On observe que, dès les premières itérations, les **ellipses de confiance** d
 3. **Impact Visuel** :
    - Les **ellipses de confiance**, qui dépendent directement de $P_k$, disparaissent car $P_k$ ne peut plus être calculée de manière significative.
 
-#### **Conclusion**
-La dégénérescence des particules dans le SIS résulte de l'accumulation des poids sur une seule particule, ce qui entraîne une perte de diversité et une incapacité à représenter correctement l'incertitude.
 
 
 ### **2. Filtre SIR**
@@ -135,20 +133,12 @@ La dégénérescence des particules dans le SIS résulte de l'accumulation des p
 - Le rééchantillonnage implémenté dans le SIR permet de résoudre efficacement le problème de **dégénérescence des particules** observé dans le SIS. Cela garantit une diversité suffisante des particules, permettant une estimation robuste de la position du robot et de son incertitude.
 
 
-### **2. Comparaison SIS vs SIR**
-| Critère                     | SIS                                  | SIR                                      |
-|-----------------------------|--------------------------------------|------------------------------------------|
-| **Performance**              | Dégradée sur de longues périodes.   | Maintenue grâce au rééchantillonnage.   |
-| **Diversité des Particules** | Diminue rapidement.                 | Rétablie périodiquement.                |
-| **Complexité**               | Plus simple à implémenter.          | Rééchantillonnage ajoute un coût.       |
-
-
 ## **Conclusion**
 Le TP a permis de comprendre les concepts fondamentaux des filtres à particules et leurs applications en estimation d'état. Le passage du SIS au SIR montre clairement l'importance du rééchantillonnage pour maintenir la performance sur le long terme.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjAyMDQyMjUsLTY2OTg1MDMyMCwxOD
-Y3ODA3NTgsMTIzNDUzMzAyNSwtNTA2NjQ3NDQ4LDYwMTQxNTQw
-OSwyMDU5MzczOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMT
-k4NDYyMDIyMyw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
+eyJoaXN0b3J5IjpbMTUzMzg5NjMxOCwtNjY5ODUwMzIwLDE4Nj
+c4MDc1OCwxMjM0NTMzMDI1LC01MDY2NDc0NDgsNjAxNDE1NDA5
+LDIwNTkzNzM5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOT
+g0NjIwMjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
 -->
