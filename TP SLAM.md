@@ -91,10 +91,9 @@ $$
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K10.png?raw=true)
 
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K25.png?raw=true)
-analyse résultat filtre sis :
-On observe que, dès les premières itérations, les **ellipses de confiance** disparaissent progressivement. Ce phénomène est principalement dû à la **dégénérescence des particules**, une limitation inhérente au filtre SIS. 
 
-#### **Explication**
+#### **Analyse des Résultats du Filtre SIS**
+On observe que, dès les premières itérations, les **ellipses de confiance** disparaissent progressivement. Ce phénomène est dû à la **dégénérescence des particules**. 
 1. **Concentration des Poids** :
    - À mesure que le filtre progresse, une seule particule finit par accumuler un poids proche de $1$, tandis que toutes les autres ont des poids proches de $0$.
    - Cela signifie que le filtre repose presque entièrement sur une seule particule, réduisant considérablement la diversité des hypothèses d'état.
@@ -148,8 +147,8 @@ La dégénérescence des particules dans le SIS résulte de l'accumulation des p
 Le TP a permis de comprendre les concepts fondamentaux des filtres à particules et leurs applications en estimation d'état. Le passage du SIS au SIR montre clairement l'importance du rééchantillonnage pour maintenir la performance sur le long terme.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTUwMzI4NSwtNjY5ODUwMzIwLDE4Nj
-c4MDc1OCwxMjM0NTMzMDI1LC01MDY2NDc0NDgsNjAxNDE1NDA5
-LDIwNTkzNzM5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOT
-g0NjIwMjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
+eyJoaXN0b3J5IjpbLTE5MjAyMDQyMjUsLTY2OTg1MDMyMCwxOD
+Y3ODA3NTgsMTIzNDUzMzAyNSwtNTA2NjQ3NDQ4LDYwMTQxNTQw
+OSwyMDU5MzczOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMT
+k4NDYyMDIyMyw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
 -->
