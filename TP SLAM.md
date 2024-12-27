@@ -113,11 +113,6 @@ On observe aussi que une évolution de l'ellipse de confiance de confiance sur l
 | **Diversité des Particules** | Diminue rapidement.                 | Rétablie périodiquement.                |
 | **Complexité**               | Plus simple à implémenter.          | Rééchantillonnage ajoute un coût.       |
 
-### **Visualisation Exemple** :
-1. Trajectoires (réelle vs estimée).
-2. Evolution des particules.
-3. Ellipses de confiance représentant l'incertitude.
-
 ---
 
 ## **Conclusion**
@@ -129,7 +124,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjY0NzQ0OCw2MDE0MTU0MDksMjA1OT
-M3Mzk3NCwtNTUzNzYxODQwLDE4NDM4MTY2NzgsLTE5ODQ2MjAy
-MjMsNzg1NzU2NTE1LDEwNDczMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbMTIzNDUzMzAyNSwtNTA2NjQ3NDQ4LDYwMT
+QxNTQwOSwyMDU5MzczOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3
+OCwtMTk4NDYyMDIyMyw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
 -->
