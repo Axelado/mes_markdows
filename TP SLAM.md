@@ -66,6 +66,7 @@ Le SIR inclut une étape de rééchantillonnage lorsque le **nombre effectif de 
 $$
 N_{\text{eff}} = \frac{1}{\sum_{i=1}^{N_p} w_k^{(i)2}}
 $$
+- sds
 - Si $N_{\text{eff}} < N_{\text{seuil}}$, les particules sont redistribuées en fonction de leurs poids.
 
 ### **Rééchantillonnage Systématique**
@@ -113,6 +114,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOT
-g0NjIwMjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
+eyJoaXN0b3J5IjpbMTA0MjAyNDE2MSwtNTUzNzYxODQwLDE4ND
+M4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwNDczMTk5
+NjVdfQ==
 -->
