@@ -73,13 +73,10 @@ $$
 La méthode de utilisé est le rééchantillonnage systématique. Cette méthode garantit une redistribution efficace des particules en maintenant leur diversité.
 - La somme cumulative des poids des particules associe chaque particule à une plage proportionnelle à son poids. 
 - Ensuite, des positions uniformément réparties entre 0 et 1 sont générées avec un décalage aléatoire. 
-- Enfin, une particule est sélectionnée à chaque position en fonction de cette somme cumulative, ce qui garantit que les particules avec des poids plus élevés ont plus de chances d'être choisies.
-- Positions équidistantes :
 $$
 \text{positions } = \frac{1}{N_p} \big( \text{rand} + [0, 1, \ldots, N_p-1] \big)
 $$
-
-- Redistribuer les particules selon leurs poids $w_k^{(i)}$.
+- Enfin, une particule est sélectionnée à chaque position en fonction de cette somme cumulative, ce qui garantit que les particules avec des poids plus élevés ont plus de chances d'être choisies.
 
 4. **Réinitialisation des poids après rééchantillonnage** :
 $$
@@ -88,6 +85,11 @@ $$
 ---
 
 ## **Résultats et Visualisations**
+
+### **1. Simulation**
+
+
+
 
 ### **1. Simulation**
 - **Trajectoire réelle** : Tracée en bleu.
@@ -117,7 +119,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIzODY5NzcsMjA1OTM3Mzk3NCwtNT
-UzNzYxODQwLDE4NDM4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2
-NTE1LDEwNDczMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbMjE0NTc5NTY3NywyMDU5MzczOTc0LC01NT
+M3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3ODU3NTY1
+MTUsMTA0NzMxOTk2NV19
 -->
