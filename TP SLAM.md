@@ -87,13 +87,18 @@ $$
 ## **Résultats et Visualisations**
 
 ### **1. Filtre SIS**
-![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K10.png?raw=true)
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K1.png?raw=true)
 
 analyse résultat filtre sis
 On observe que très rapidement les ellipse de confiances disparaissent.
 Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids égale à 1 et les autres un poids égale à 0. Cela se traduit par une matrice de covariance qui s'annule très rapidement.
 
 ### **2. Filtre SIR**
+
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K1.png?raw=true)
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K10.png?raw=true)
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K25.png?raw=true)
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K50.png?raw=true)
 
 On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer vu qu'il sont immobile. Les variances concernant les amers s'annule donc avec le temps.
 On observe aussi que une évolution de l'ellipse de confiance de confiance sur la position du robot, ce qui revèle qu'on a plus a résolu le problème de dégénéraissance des particules.
@@ -124,7 +129,8 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDUzMzAyNSwtNTA2NjQ3NDQ4LDYwMT
-QxNTQwOSwyMDU5MzczOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3
-OCwtMTk4NDYyMDIyMyw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
+eyJoaXN0b3J5IjpbNDg0MTgxMjA3LDEyMzQ1MzMwMjUsLTUwNj
+Y0NzQ0OCw2MDE0MTU0MDksMjA1OTM3Mzk3NCwtNTUzNzYxODQw
+LDE4NDM4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwND
+czMTk5NjVdfQ==
 -->
