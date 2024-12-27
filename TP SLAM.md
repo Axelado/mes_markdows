@@ -92,8 +92,23 @@ $$
 
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K25.png?raw=true)
 analyse résultat filtre sis :
-On observe que très rapidement les ellipse de confiances disparaissent.
-Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids égale à 1 et les autres un poids égale à 0. Cela se traduit par une matrice de covariance qui s'annule très rapidement.
+On observe que, dès les premières itérations, les **ellipses de confiance** disparaissent progressivement. Ce phénomène est principalement dû à la **dégénérescence des particules**, une limitation inhérente au filtre SIS. 
+
+#### **Explication**
+1. **Concentration des Poids** :
+   - À mesure que le filtre progresse, une seule particule finit par accumuler un poids proche de $1$, tandis que toutes les autres ont des poids proches de $0$.
+   - Cela signifie que le filtre repose presque entièrement sur une seule particule, réduisant considérablement la diversité des hypothèses d'état.
+
+2. **Effet sur la Covariance** :
+   - La covariance $P_k$, qui représente l'incertitude sur l'estimation, devient rapidement nulle.
+   - En effet, avec des poids concentrés sur une seule particule, la contribution des autres particules à $P_k$ s'annule, rendant impossible l'estimation de l'incertitude.
+
+3. **Impact Visuel** :
+   - Les **ellipses de confiance**, qui dépendent directement de $P_k$, disparaissent car $P_k$ ne peut plus être calculée de manière significative.
+
+#### **Conclusion**
+La dégénérescence des particules dans le SIS résulte de l'accumulation des poids sur une seule particule, ce qui entraîne une perte de diversité et une incapacité à représenter correctement l'incertitude.
+
 
 ### **2. Filtre SIR**
 
@@ -119,8 +134,8 @@ On observe aussi que une évolution de l'ellipse de confiance de confiance sur l
 Le TP a permis de comprendre les concepts fondamentaux des filtres à particules et leurs applications en estimation d'état. Le passage du SIS au SIR montre clairement l'importance du rééchantillonnage pour maintenir la performance sur le long terme.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTg1MDMyMCwxODY3ODA3NTgsMTIzND
-UzMzAyNSwtNTA2NjQ3NDQ4LDYwMTQxNTQwOSwyMDU5MzczOTc0
-LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3OD
-U3NTY1MTUsMTA0NzMxOTk2NV19
+eyJoaXN0b3J5IjpbLTIwMjIyNjc2OCwtNjY5ODUwMzIwLDE4Nj
+c4MDc1OCwxMjM0NTMzMDI1LC01MDY2NDc0NDgsNjAxNDE1NDA5
+LDIwNTkzNzM5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOT
+g0NjIwMjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
 -->
