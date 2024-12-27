@@ -1,4 +1,5 @@
 
+
 # Rapport : Filtre à Particules (SIS et SIR)
 
 ## **Introduction**
@@ -14,8 +15,8 @@ Les algorithmes ont été appliqués à une simulation de robot mobile évoluant
 
 ### **Données Simulées**
 La fonction `dataSimulation` gènère les données nécessaires :
-- **Dynamique du système** : Modèle de transition \( x_k = F x_{k-1} + B + w \), avec \( w \sim \mathcal{N}(0, Q_w) \).
-- **Mesures simulées** : \( z_k = H x_k + v \), avec \( v \sim \mathcal{N}(0, R_v) \).
+- **Dynamique du système** : Modèle de transition $x_k = F x_{k-1} + B + w$, avec $w \sim \mathcal{N}(0, Q_w)$.
+- **Mesures simulées** : $z_k = H x_k + v$, avec $v \sim \mathcal{N}(0, R_v)$.
 - **Configuration** :
   - 5 repères fixes dans l'environnement.
   - 50 pas de temps pour la simulation.
@@ -26,8 +27,8 @@ La fonction `dataSimulation` gènère les données nécessaires :
 
 ### **Étapes de l'algorithme SIS**
 1. **Initialisation** :
-   - \( N_p = 100 \) particules échantillonnées depuis la distribution initiale \( p(x_0) \).
-   - Poids initiaux égaux \( w_0^{(i)} = 1/N_p \).
+   - $N_p = 100$ particules échantillonnées depuis la distribution initiale $p(x_0)$.
+   - Poids initiaux égaux $w_0^{(i)} = 1/N_p$.
    
 2. **Propagation** :
    - Les particules sont propagées à chaque instant selon le modèle dynamique du système.
@@ -39,10 +40,10 @@ La fonction `dataSimulation` gènère les données nécessaires :
      $$
 
 4. **Estimation** :
-   - L'état estimé \( \hat{x}_k \) est calculé comme la moyenne pondérée des particules.
+   - L'état estimé $\hat{x}_k$ est calculé comme la moyenne pondérée des particules.
 
 5. **Calcul de la Covariance** :
-   - La covariance \( P_k \) est calculée pour représenter l'incertitude sur $\hat{x}_k$.
+   - La covariance $P_k$ est calculée pour représenter l'incertitude sur $\hat{x}_k$.
 
 ### **Limites du SIS**
 Le SIS souffre de **dégénérescence des particules** : après plusieurs étapes, quelques particules seulement portent des poids significatifs.
@@ -52,11 +53,11 @@ Le SIS souffre de **dégénérescence des particules** : après plusieurs étape
 ## **Filtre à Particules SIR**
 
 ### **Amélioration avec Rééchantillonnage**
-Le SIR inclut une étape de rééchantillonnage lorsque le **nombre effectif de particules** \( N_{\text{eff}} \) devient trop faible :
-\[
+Le SIR inclut une étape de rééchantillonnage lorsque le **nombre effectif de particules** $N_{\text{eff}}$ devient trop faible :
+$$
 N_{\text{eff}} = \frac{1}{\sum_{i=1}^{N_p} w_k^{(i)2}}
-\]
-- Si \( N_{\text{eff}} < N_{\text{seuil}} \), les particules sont redistribuées en fonction de leurs poids.
+$$
+- Si $N_{\text{eff}} < N_{\text{seuil}}$, les particules sont redistribuées en fonction de leurs poids.
 
 ### **Rééchantillonnage Systématique**
 La méthode de rééchantillonnage systématique garantit une redistribution efficace des particules en maintenant leur diversité.
@@ -68,7 +69,7 @@ La méthode de rééchantillonnage systématique garantit une redistribution eff
 ### **1. Simulation**
 - **Trajectoire réelle** : Tracée en bleu.
 - **Positions estimées par le filtre** : Tracées en rouge.
-- **Ellipses de confiance** : Illustrent l'incertitude sur \( \hat{x}_k \) à chaque instant.
+- **Ellipses de confiance** : Illustrent l'incertitude sur $\hat{x}_k$ à chaque instant.
 
 ### **2. Comparaison SIS vs SIR**
 | Critère                     | SIS                                  | SIR                                      |
@@ -93,5 +94,6 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1NzU2NTE1LDEwNDczMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwND
+czMTk5NjVdfQ==
 -->
