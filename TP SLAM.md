@@ -70,7 +70,17 @@ $$
 
 ### **Rééchantillonnage Systématique**
 La méthode de rééchantillonnage systématique garantit une redistribution efficace des particules en maintenant leur diversité.
+- Positions équidistantes :
+$$
+\text{positions } = \frac{1}{N_p} \big( \text{rand} + [0, 1, \ldots, N_p-1] \big)
+$$
 
+- Redistribuer les particules selon leurs poids $w_k^{(i)}$.
+
+4. **Réinitialisation des poids après rééchantillonnage** :
+$$
+w_k^{(i)} = \frac{1}{N_p}, \quad i = 1, 2, \ldots, N_p
+$$
 ---
 
 ## **Résultats et Visualisations**
@@ -103,6 +113,6 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3OD
-U3NTY1MTUsMTA0NzMxOTk2NV19
+eyJoaXN0b3J5IjpbLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOT
+g0NjIwMjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
 -->
