@@ -102,16 +102,10 @@ Pour la position du robot cela est dû à la dégénéraissance des particules, 
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K25.png?raw=true)
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K50.png?raw=true)
 
+analyse résultat filtre sis
 On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer vu qu'il sont immobile. Les variances concernant les amers s'annule donc avec le temps.
 On observe aussi que une évolution de l'ellipse de confiance de confiance sur la position du robot, ce qui revèle qu'on a plus a résolu le problème de dégénéraissance des particules.
 
-
-
-
-### **1. Simulation**
-- **Trajectoire réelle** : Tracée en bleu.
-- **Positions estimées par le filtre** : Tracées en rouge.
-- **Ellipses de confiance** : Illustrent l'incertitude sur $\hat{x}_k$ à chaque instant.
 
 ### **2. Comparaison SIS vs SIR**
 | Critère                     | SIS                                  | SIR                                      |
@@ -120,18 +114,12 @@ On observe aussi que une évolution de l'ellipse de confiance de confiance sur l
 | **Diversité des Particules** | Diminue rapidement.                 | Rétablie périodiquement.                |
 | **Complexité**               | Plus simple à implémenter.          | Rééchantillonnage ajoute un coût.       |
 
----
 
 ## **Conclusion**
 Le TP a permis de comprendre les concepts fondamentaux des filtres à particules et leurs applications en estimation d'état. Le passage du SIS au SIR montre clairement l'importance du rééchantillonnage pour maintenir la performance sur le long terme.
 
-### **Perspectives**
-- Intégrer des modèles plus complexes (non linéaires).
-- Comparer avec d'autres méthodes d'estimation, comme le filtre de Kalman étendu (EKF).
-- Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2NzUxNTQ0LDEyMzQ1MzMwMjUsLTUwNj
+eyJoaXN0b3J5IjpbMTg2NzgwNzU4LDEyMzQ1MzMwMjUsLTUwNj
 Y0NzQ0OCw2MDE0MTU0MDksMjA1OTM3Mzk3NCwtNTUzNzYxODQw
 LDE4NDM4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwND
 czMTk5NjVdfQ==
