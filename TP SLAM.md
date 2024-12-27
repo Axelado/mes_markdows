@@ -117,9 +117,23 @@ La dégénérescence des particules dans le SIS résulte de l'accumulation des p
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K25.png?raw=true)
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K50.png?raw=true)
 
-analyse résultat filtre sir
-On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer vu qu'il sont immobile. Les variances concernant les amers s'annule donc avec le temps.
-On observe aussi que une évolution de l'ellipse de confiance de confiance sur la position du robot, ce qui revèle qu'on a plus a résolu le problème de dégénéraissance des particules.
+#### **Analyse des Résultats du Filtre SIR**
+
+1. **Disparition des Ellipses de Confiance des Repères** :
+
+- Les ellipses de confiance associées aux **repères immobiles (amers)** disparaissent progressivement.
+
+- Cela s'explique par l'absence de bruit dans la dynamique des repères : leur position est considérée comme fixe et parfaitement connue dans le modèle.
+
+- Par conséquent, la variance associée aux repères diminue au fil du temps, jusqu'à s'annuler complètement, reflétant une incertitude nulle sur leur position.
+
+2. **Évolution des Ellipses de Confiance pour le Robot** :
+
+- Contrairement aux repères, l'ellipse de confiance correspondant à la **position du robot** évolue au cours du temps.
+
+- Cette évolution reflète l'incertitude dynamique liée au mouvement du robot et à la qualité des observations.
+
+- Le rééchantillonnage implémenté dans le SIR permet de résoudre efficacement le problème de **dégénérescence des particules** observé dans le SIS. Cela garantit une diversité suffisante des particules, permettant une estimation robuste de la position du robot et de son incertitude.
 
 
 ### **2. Comparaison SIS vs SIR**
@@ -134,7 +148,7 @@ On observe aussi que une évolution de l'ellipse de confiance de confiance sur l
 Le TP a permis de comprendre les concepts fondamentaux des filtres à particules et leurs applications en estimation d'état. Le passage du SIS au SIR montre clairement l'importance du rééchantillonnage pour maintenir la performance sur le long terme.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODc5NTI0NywtNjY5ODUwMzIwLDE4Nj
+eyJoaXN0b3J5IjpbMjEyOTUwMzI4NSwtNjY5ODUwMzIwLDE4Nj
 c4MDc1OCwxMjM0NTMzMDI1LC01MDY2NDc0NDgsNjAxNDE1NDA5
 LDIwNTkzNzM5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOT
 g0NjIwMjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
