@@ -44,9 +44,15 @@ La fonction `dataSimulation` gènère les données nécessaires :
 
 4. **Estimation** :
    - L'état estimé $\hat{x}_k$ est calculé comme la moyenne pondérée des particules.
+  $$
+  \hat{x}_k = \sum_{i=1}^{N_p} w_k^{(i)} x_k^{(i)}
+  $$
 
 5. **Calcul de la Covariance** :
-   - La covariance $P_k$ est calculée pour représenter l'incertitude sur $\hat{x}_k$.
+   - La covariance $P_k$ est calculée pour représenter l'incertitude sur $\hat{x}_k$:
+  $$
+  P_k = \sum_{i=1}^{N_p} w_k^{(i)} \cdot \big(x_k^{(i)} - \hat{x}_k\big) \big(x_k^{(i)} - \hat{x}_k\big)^\top
+  $$
 
 ### **Limites du SIS**
 Le SIS souffre de **dégénérescence des particules** : après plusieurs étapes, quelques particules seulement portent des poids significatifs.
@@ -97,6 +103,6 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkyNDczODYsLTE5ODQ2MjAyMjMsNz
-g1NzU2NTE1LDEwNDczMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3OD
+U3NTY1MTUsMTA0NzMxOTk2NV19
 -->
