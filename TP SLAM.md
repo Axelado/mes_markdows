@@ -87,7 +87,7 @@ $$
 ## **Résultats et Visualisations**
 
 ### **1. Filtre SIS**
-
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K1.png)
 
 
 
@@ -119,7 +119,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxNDE1NDA5LDIwNTkzNzM5NzQsLTU1Mz
-c2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIwMjIzLDc4NTc1NjUx
-NSwxMDQ3MzE5OTY1XX0=
+eyJoaXN0b3J5IjpbNDU3OTQyNTIwLDYwMTQxNTQwOSwyMDU5Mz
+czOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIy
+Myw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
 -->
