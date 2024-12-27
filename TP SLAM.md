@@ -89,11 +89,12 @@ $$
 ### **1. Filtre SIS**
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K10.png?raw=true)
 
-
+analyse résultat filtre sis
 On observe que très rapidement les ellipse de confiances disparaissent.
 Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids égale à 1 et les autres un poids égale à 0. Cela se traduit par une matrice de covariance qui s'annule très rapidement.
 
 ### **2. Filtre SIR**
+
 On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer vu qu'il sont immobile. Les variances concernant les amers s'annule donc avec le temps.
 On observe aussi que une évolution de l'ellipse de confiance de confiance sur la position du robot, ce qui revèle qu'on a plus a résolu le problème de dégénéraissance des particules.
 
@@ -128,7 +129,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjE4NTI1Miw2MDE0MTU0MDksMjA1OT
+eyJoaXN0b3J5IjpbLTUwNjY0NzQ0OCw2MDE0MTU0MDksMjA1OT
 M3Mzk3NCwtNTUzNzYxODQwLDE4NDM4MTY2NzgsLTE5ODQ2MjAy
 MjMsNzg1NzU2NTE1LDEwNDczMTk5NjVdfQ==
 -->
