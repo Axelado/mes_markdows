@@ -91,7 +91,7 @@ $$
 
 
 On observe que très rapidement les ellipse de confiances disparaissent.
-Pour la position du robot cela est dû à la dégénéraissance des particules, car un
+Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids de 1 et les autres un poids de 0.
 
 
 ### **1. Simulation**
@@ -122,7 +122,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5OTkxMDA5LDYwMTQxNTQwOSwyMDU5Mz
-czOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIy
-Myw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
+eyJoaXN0b3J5IjpbLTE2NTMyOTcyMjAsNjAxNDE1NDA5LDIwNT
+kzNzM5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIw
+MjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
 -->
