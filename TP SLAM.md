@@ -14,7 +14,7 @@ Les algorithmes ont été appliqués à une simulation de robot mobile évoluant
 ## **Simulation : Modèle du Système**
 
 ### **Données Simulées**
-La fonction `dataSimulation` gènère les données nécessaires :
+La fonction `dataSimulation` génère les données nécessaires :
 - **Dynamique du système** : Modèle de transition $x_k = F x_{k-1} + B + w$, avec $w \sim \mathcal{N}(0, Q_w)$.
 - **Mesures simulées** : $z_k = H x_k + v$, avec $v \sim \mathcal{N}(0, R_v)$.
 - **Configuration** :
@@ -94,7 +94,7 @@ On observe que très rapidement les ellipse de confiances disparaissent.
 Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids égale à 1 et les autres un poids égale à 0. Cela se traduit par une matrice de covariance qui s'annule très rapidement.
 
 
-On observe que les éllipse de confiance des amers disparaissent, cela est du au fait que la
+On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer
 
 
 
@@ -127,7 +127,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDk0Nzc3Myw2MDE0MTU0MDksMjA1OT
-M3Mzk3NCwtNTUzNzYxODQwLDE4NDM4MTY2NzgsLTE5ODQ2MjAy
-MjMsNzg1NzU2NTE1LDEwNDczMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbMzg1NDk5NDUsNjAxNDE1NDA5LDIwNTkzNz
+M5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIwMjIz
+LDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
 -->
