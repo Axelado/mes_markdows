@@ -31,7 +31,10 @@ La fonction `dataSimulation` gènère les données nécessaires :
    - Poids initiaux égaux $w_0^{(i)} = 1/N_p$.
    
 2. **Propagation** :
-   - Les particules sont propagées à chaque instant selon le modèle dynamique du système.
+   - Les particules sont propagées à chaque instant selon le modèle dynamique du système:
+   $$
+   x_k^{(i)} \sim p(x_k | x_{k-1}^{(i)}), \quad i = 1, 2, \ldots, N_p
+   $$
 
 3. **Mise à Jour des Poids** :
    - Les poids des particules sont ajustés en fonction des observations disponibles :
@@ -94,6 +97,6 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwND
-czMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE5NDkyNDczODYsLTE5ODQ2MjAyMjMsNz
+g1NzU2NTE1LDEwNDczMTk5NjVdfQ==
 -->
