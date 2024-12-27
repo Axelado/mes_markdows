@@ -117,7 +117,7 @@ La dégénérescence des particules dans le SIS résulte de l'accumulation des p
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K25.png?raw=true)
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K50.png?raw=true)
 
-analyse résultat filtre sis
+analyse résultat filtre sir
 On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer vu qu'il sont immobile. Les variances concernant les amers s'annule donc avec le temps.
 On observe aussi que une évolution de l'ellipse de confiance de confiance sur la position du robot, ce qui revèle qu'on a plus a résolu le problème de dégénéraissance des particules.
 
@@ -134,7 +134,7 @@ On observe aussi que une évolution de l'ellipse de confiance de confiance sur l
 Le TP a permis de comprendre les concepts fondamentaux des filtres à particules et leurs applications en estimation d'état. Le passage du SIS au SIR montre clairement l'importance du rééchantillonnage pour maintenir la performance sur le long terme.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIyNjc2OCwtNjY5ODUwMzIwLDE4Nj
+eyJoaXN0b3J5IjpbMTg3ODc5NTI0NywtNjY5ODUwMzIwLDE4Nj
 c4MDc1OCwxMjM0NTMzMDI1LC01MDY2NDc0NDgsNjAxNDE1NDA5
 LDIwNTkzNzM5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOT
 g0NjIwMjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
