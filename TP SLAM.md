@@ -34,15 +34,15 @@ La fonction `dataSimulation` gènère les données nécessaires :
 
 3. **Mise à Jour des Poids** :
    - Les poids des particules sont ajustés en fonction des observations disponibles :
-     \[
+     $$
      w_k^{(i)} \propto w_{k-1}^{(i)} \cdot p(z_k | x_k^{(i)})
-     \]
+     $$
 
 4. **Estimation** :
    - L'état estimé \( \hat{x}_k \) est calculé comme la moyenne pondérée des particules.
 
 5. **Calcul de la Covariance** :
-   - La covariance \( P_k \) est calculée pour représenter l'incertitude sur \( \hat{x}_k \).
+   - La covariance \( P_k \) est calculée pour représenter l'incertitude sur $\hat{x}_k$.
 
 ### **Limites du SIS**
 Le SIS souffre de **dégénérescence des particules** : après plusieurs étapes, quelques particules seulement portent des poids significatifs.
@@ -93,5 +93,5 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjgxNjUxMiwxMDQ3MzE5OTY1XX0=
+eyJoaXN0b3J5IjpbNzg1NzU2NTE1LDEwNDczMTk5NjVdfQ==
 -->
