@@ -1,6 +1,6 @@
 
 
-# Rapport : Filtre à Particules (SIS et SIR)
+# Rapport : TP FILTRE A PA
 
 ## **Introduction**
 L'objectif de ce TP est d'étudier et de mettre en œuvre des filtres à particules pour l'estimation d'état dans un système dynamique. Deux variantes principales du filtre ont été développées :
@@ -142,8 +142,7 @@ Ce TP a permis d’explorer en profondeur les **filtres à particules** et leur 
 
 Le **filtre SIS** a montré ses limites, notamment en raison de la **dégénérescence des particules**, où une seule particule finit par porter la quasi-totalité du poids. En revanche, le **filtre SIR**, grâce à l’étape de rééchantillonnage, a permis de préserver la diversité des particules et d’améliorer la robustesse des estimations.
 
-#### **Comparaison avec le filtre de Kalman**
-En paralavons jugé pertinant de faire une filtre à particule au filtre de Kalman que nous avons étudier l'an dernier
+En parallèle il serait pertinant de comparer le filtre à particule au filtre de Kalman que nous avons étudier l'an dernier :
 
 1. **Hypothèses et Modèles** :
 
@@ -157,7 +156,7 @@ En paralavons jugé pertinant de faire une filtre à particule au filtre de Kalm
 
 - Les **filtres à particules** utilisent une approximation par des particules, capable de capturer des incertitudes complexes, mais nécessitant un grand nombre de particules pour atteindre une bonne précision.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg2NTQ3OTEsMTUwNTM2MDgxMywxNT
+eyJoaXN0b3J5IjpbLTIwOTMyNzg4MTYsMTUwNTM2MDgxMywxNT
 MzODk2MzE4LC02Njk4NTAzMjAsMTg2NzgwNzU4LDEyMzQ1MzMw
 MjUsLTUwNjY0NzQ0OCw2MDE0MTU0MDksMjA1OTM3Mzk3NCwtNT
 UzNzYxODQwLDE4NDM4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2
