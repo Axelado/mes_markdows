@@ -86,7 +86,7 @@ $$
 
 ## **Résultats et Visualisations**
 
-### **1. Simulation**
+### **1. Filtre SIS**
 
 
 
@@ -119,7 +119,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTc5NTY3NywyMDU5MzczOTc0LC01NT
-M3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3ODU3NTY1
-MTUsMTA0NzMxOTk2NV19
+eyJoaXN0b3J5IjpbNjAxNDE1NDA5LDIwNTkzNzM5NzQsLTU1Mz
+c2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIwMjIzLDc4NTc1NjUx
+NSwxMDQ3MzE5OTY1XX0=
 -->
