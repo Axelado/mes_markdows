@@ -134,17 +134,31 @@ On observe que, dès les premières itérations, les **ellipses de confiance** d
 
 
 ## **Conclusion**
-Ce TP a permis d'explorer en profondeur les filtres à particules et leurs applications dans l'estimation d'état pour un système dynamique. En mettant en œuvre les variantes SIS (Sequential Importance Sampling) et SIR (Sampling Importance Resampling), plusieurs aspects fondamentaux ont été analysés, notamment la gestion de l'incertitude, la diversité des particules, et la robustesse des estimations.
-Le filtre SIS montre rapidement ses limites avec la dégénérescence des particules, tandis que le SIR, grâce à l’étape de rééchantillonnage, préserve cette diversité et améliore la robustesse des estimations.
 
--   Le filtre de Kalman repose sur des hypothèses fortes de linéarité et de distributions gaussiennes. Il est optimal dans ce cadre, mais ses performances diminuent rapidement en cas de non-linéarité ou de distributions non gaussiennes.
--   Les filtres à particules n’imposent pas ces restrictions et s’adaptent à des systèmes plus complexes, au prix d’un coût computationnel plus élevé.
-- -   Le filtre de Kalman représente l’incertitude par une matrice de covariance, ce qui est très efficace pour des modèles linéaires et simples.
--   Les filtres à particules utilisent une approximation par des particules, ce qui permet de capturer des incertitudes complexes mais nécessite un plus grand nombre de particules pour une bonne précision.
+Ce TP a permis d’explorer en profondeur les **filtres à particules** et leur application à l’estimation d’état pour un système dynamique. En implémentant et comparant les variantes **SIS** (Sequential Importance Sampling) et **SIR** (Sampling Importance Resampling), plusieurs aspects essentiels ont été étudiés, notamment :
+- La gestion de l’incertitude,
+- La diversité des particules,
+- La robustesse des estimations.
+
+Le **filtre SIS** a montré ses limites, notamment en raison de la **dégénérescence des particules**, où une seule particule finit par porter la quasi-totalité du poids. En revanche, le **filtre SIR**, grâce à l’étape de rééchantillonnage, a permis de préserver la diversité des particules et d’améliorer la robustesse des estimations.
+
+#### **Comparaison avec le filtre de Kalman**
+
+1. **Hypothèses et Modèles** :
+
+- Le filtre de Kalman repose sur des hypothèses fortes de **linéarité** et de **distributions gaussiennes**, ce qui le rend optimal dans ces conditions. Cependant, ses performances diminuent rapidement en présence de non-linéarités ou de distributions non gaussiennes.
+
+- Les **filtres à particules**, quant à eux, ne nécessitent pas ces hypothèses, ce qui les rend adaptés à des systèmes plus complexes, mais au prix d’un **coût computationnel plus élevé**.
+
+2. **Représentation de l’Incertitude** :
+
+- Le **filtre de Kalman** représente l’incertitude à travers une **matrice de covariance**, efficace pour des modèles simples et linéaires.
+
+- Les **filtres à particules** utilisent une approximation par des particules, capable de capturer des incertitudes complexes, mais nécessitant un grand nombre de particules pour atteindre une bonne précision.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTM2MDgxMywxNTMzODk2MzE4LC02Nj
-k4NTAzMjAsMTg2NzgwNzU4LDEyMzQ1MzMwMjUsLTUwNjY0NzQ0
-OCw2MDE0MTU0MDksMjA1OTM3Mzk3NCwtNTUzNzYxODQwLDE4ND
-M4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwNDczMTk5
-NjVdfQ==
+eyJoaXN0b3J5IjpbNDI5MTg5MTgzLDE1MDUzNjA4MTMsMTUzMz
+g5NjMxOCwtNjY5ODUwMzIwLDE4Njc4MDc1OCwxMjM0NTMzMDI1
+LC01MDY2NDc0NDgsNjAxNDE1NDA5LDIwNTkzNzM5NzQsLTU1Mz
+c2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIwMjIzLDc4NTc1NjUx
+NSwxMDQ3MzE5OTY1XX0=
 -->
