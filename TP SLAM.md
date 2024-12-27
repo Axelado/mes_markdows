@@ -87,8 +87,10 @@ $$
 ## **Résultats et Visualisations**
 
 ### **1. Filtre SIS**
-![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIR%20K1.png?raw=true)
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K1.png?raw=true)
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K10.png?raw=true)
 
+![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K25.png?raw=true)
 analyse résultat filtre sis
 On observe que très rapidement les ellipse de confiances disparaissent.
 Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids égale à 1 et les autres un poids égale à 0. Cela se traduit par une matrice de covariance qui s'annule très rapidement.
@@ -129,7 +131,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MTgxMjA3LDEyMzQ1MzMwMjUsLTUwNj
+eyJoaXN0b3J5IjpbNjc2NzUxNTQ0LDEyMzQ1MzMwMjUsLTUwNj
 Y0NzQ0OCw2MDE0MTU0MDksMjA1OTM3Mzk3NCwtNTUzNzYxODQw
 LDE4NDM4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwND
 czMTk5NjVdfQ==
