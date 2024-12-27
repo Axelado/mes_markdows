@@ -1,6 +1,6 @@
 
 
-# Rapport : TP FILTRE A PA
+# Rapport : TP Filtres à particules
 
 ## **Introduction**
 L'objectif de ce TP est d'étudier et de mettre en œuvre des filtres à particules pour l'estimation d'état dans un système dynamique. Deux variantes principales du filtre ont été développées :
@@ -156,9 +156,9 @@ En parallèle il serait pertinant de comparer le filtre à particule au filtre d
 
 - Les **filtres à particules** utilisent une approximation par des particules, capable de capturer des incertitudes complexes, mais nécessitant un grand nombre de particules pour atteindre une bonne précision.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTMyNzg4MTYsMTUwNTM2MDgxMywxNT
-MzODk2MzE4LC02Njk4NTAzMjAsMTg2NzgwNzU4LDEyMzQ1MzMw
-MjUsLTUwNjY0NzQ0OCw2MDE0MTU0MDksMjA1OTM3Mzk3NCwtNT
-UzNzYxODQwLDE4NDM4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2
-NTE1LDEwNDczMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE5NDE2MzUzOSwxNTA1MzYwODEzLDE1Mz
+M4OTYzMTgsLTY2OTg1MDMyMCwxODY3ODA3NTgsMTIzNDUzMzAy
+NSwtNTA2NjQ3NDQ4LDYwMTQxNTQwOSwyMDU5MzczOTc0LC01NT
+M3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3ODU3NTY1
+MTUsMTA0NzMxOTk2NV19
 -->
