@@ -143,6 +143,7 @@ Ce TP a permis d’explorer en profondeur les **filtres à particules** et leur 
 Le **filtre SIS** a montré ses limites, notamment en raison de la **dégénérescence des particules**, où une seule particule finit par porter la quasi-totalité du poids. En revanche, le **filtre SIR**, grâce à l’étape de rééchantillonnage, a permis de préserver la diversité des particules et d’améliorer la robustesse des estimations.
 
 #### **Comparaison avec le filtre de Kalman**
+Nous avons jugé pertinant de comparer ces filtres au filtre de cam
 
 1. **Hypothèses et Modèles** :
 
@@ -156,9 +157,9 @@ Le **filtre SIS** a montré ses limites, notamment en raison de la **dégénére
 
 - Les **filtres à particules** utilisent une approximation par des particules, capable de capturer des incertitudes complexes, mais nécessitant un grand nombre de particules pour atteindre une bonne précision.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5MTg5MTgzLDE1MDUzNjA4MTMsMTUzMz
-g5NjMxOCwtNjY5ODUwMzIwLDE4Njc4MDc1OCwxMjM0NTMzMDI1
-LC01MDY2NDc0NDgsNjAxNDE1NDA5LDIwNTkzNzM5NzQsLTU1Mz
-c2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIwMjIzLDc4NTc1NjUx
-NSwxMDQ3MzE5OTY1XX0=
+eyJoaXN0b3J5IjpbLTE3ODQ1Mjg3NywxNTA1MzYwODEzLDE1Mz
+M4OTYzMTgsLTY2OTg1MDMyMCwxODY3ODA3NTgsMTIzNDUzMzAy
+NSwtNTA2NjQ3NDQ4LDYwMTQxNTQwOSwyMDU5MzczOTc0LC01NT
+M3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3ODU3NTY1
+MTUsMTA0NzMxOTk2NV19
 -->
