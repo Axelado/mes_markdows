@@ -95,8 +95,7 @@ Pour la position du robot cela est dû à la dégénéraissance des particules, 
 
 
 On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer vu qu'il sont immobile. Les variances concernant les amers s'annule donc avec le temps.
-On obse
-
+On observe aussi que une évolution de l'ellipse de confiance de confiance sur la position du robot, ce qui revèle qu'on a 
 
 
 
@@ -129,7 +128,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3MjEwNzQ1LDYwMTQxNTQwOSwyMDU5Mz
-czOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIy
-Myw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
+eyJoaXN0b3J5IjpbLTE0MDgxNjY5NDAsNjAxNDE1NDA5LDIwNT
+kzNzM5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIw
+MjIzLDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
 -->
