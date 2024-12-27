@@ -91,7 +91,7 @@ $$
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K10.png?raw=true)
 
 ![DFimage description here](https://github.com/Axelado/mes_markdows/blob/images/SIS%20K25.png?raw=true)
-analyse résultat filtre sis
+analyse résultat filtre sis :
 On observe que très rapidement les ellipse de confiances disparaissent.
 Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids égale à 1 et les autres un poids égale à 0. Cela se traduit par une matrice de covariance qui s'annule très rapidement.
 
@@ -119,8 +119,8 @@ On observe aussi que une évolution de l'ellipse de confiance de confiance sur l
 Le TP a permis de comprendre les concepts fondamentaux des filtres à particules et leurs applications en estimation d'état. Le passage du SIS au SIR montre clairement l'importance du rééchantillonnage pour maintenir la performance sur le long terme.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzgwNzU4LDEyMzQ1MzMwMjUsLTUwNj
-Y0NzQ0OCw2MDE0MTU0MDksMjA1OTM3Mzk3NCwtNTUzNzYxODQw
-LDE4NDM4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwND
-czMTk5NjVdfQ==
+eyJoaXN0b3J5IjpbLTY2OTg1MDMyMCwxODY3ODA3NTgsMTIzND
+UzMzAyNSwtNTA2NjQ3NDQ4LDYwMTQxNTQwOSwyMDU5MzczOTc0
+LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIyMyw3OD
+U3NTY1MTUsMTA0NzMxOTk2NV19
 -->
