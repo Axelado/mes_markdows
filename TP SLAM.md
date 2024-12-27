@@ -94,7 +94,9 @@ On observe que très rapidement les ellipse de confiances disparaissent.
 Pour la position du robot cela est dû à la dégénéraissance des particules, car un seul particule a tout un poids égale à 1 et les autres un poids égale à 0. Cela se traduit par une matrice de covariance qui s'annule très rapidement.
 
 
-On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer
+On observe que les ellipse de confiance des amers disparaissent, cela est du au fait qu'il n'y pas de bruit sur la dynamique de amer vu qu'il sont immobile. Les variances concernant les amers s'annule donc avec le temps.
+On obse
+
 
 
 
@@ -127,7 +129,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1NDk5NDUsNjAxNDE1NDA5LDIwNTkzNz
-M5NzQsLTU1Mzc2MTg0MCwxODQzODE2Njc4LC0xOTg0NjIwMjIz
-LDc4NTc1NjUxNSwxMDQ3MzE5OTY1XX0=
+eyJoaXN0b3J5IjpbNjU3MjEwNzQ1LDYwMTQxNTQwOSwyMDU5Mz
+czOTc0LC01NTM3NjE4NDAsMTg0MzgxNjY3OCwtMTk4NDYyMDIy
+Myw3ODU3NTY1MTUsMTA0NzMxOTk2NV19
 -->
