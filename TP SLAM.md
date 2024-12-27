@@ -66,11 +66,11 @@ Le SIR inclut une étape de rééchantillonnage lorsque le **nombre effectif de 
 $$
 N_{\text{eff}} = \frac{1}{\sum_{i=1}^{N_p} w_k^{(i)2}}
 $$
-- sds
+- $N_{\text{eff}}$​ diminue lorsque la distribution des poids devient très inégale (c'est-à-dire que peu de particules portent des poids significatifs).
 - Si $N_{\text{eff}} < N_{\text{seuil}}$, les particules sont redistribuées en fonction de leurs poids.
 
 ### **Rééchantillonnage Systématique**
-La méthode de rééchantillonnage systématique garantit une redistribution efficace des particules en maintenant leur diversité.
+La méthode de utilisé est le rééchantillonnage systématique. Cette méthode garantit une redistribution efficace des particules en maintenant leur diversité.
 - Positions équidistantes :
 $$
 \text{positions } = \frac{1}{N_p} \big( \text{rand} + [0, 1, \ldots, N_p-1] \big)
@@ -114,7 +114,7 @@ Le TP a permis de comprendre les concepts fondamentaux des filtres à particules
 - Optimiser les performances en augmentant le nombre de particules ou en utilisant des techniques parallèles.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjAyNDE2MSwtNTUzNzYxODQwLDE4ND
+eyJoaXN0b3J5IjpbMjA1OTM3Mzk3NCwtNTUzNzYxODQwLDE4ND
 M4MTY2NzgsLTE5ODQ2MjAyMjMsNzg1NzU2NTE1LDEwNDczMTk5
 NjVdfQ==
 -->
