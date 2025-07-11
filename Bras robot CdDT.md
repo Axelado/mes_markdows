@@ -29,7 +29,7 @@ Le système sera utilisé à des fins pédagogiques ou de prototypage, en enviro
 Le bras sera composé de segments imprimés en 3D, articulés par des servomoteurs SG90, contrôlés par une carte ESP32 via PWM. L'utilisateur interagit avec une page web pour piloter individuellement les moteurs ou rejouer des séquences enregistrées.
 
 ### 2.2 Diagramme Bloc
-    ![Diagramme Bloc](https://github.com/Axelado/mes_markdows/blob/images/Bras%20robotique%20diagramme%20bloc.drawio.svg)
+    
 
 ## 3. Spécifications fonctionnelles
 
@@ -131,5 +131,5 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 -   Exécution fluide de la séquence pick & place
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTUzMzc1M119
+eyJoaXN0b3J5IjpbMjA1OTQyNzk4MywtMTYxNTMzNzUzXX0=
 -->
