@@ -108,7 +108,7 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 
 ## 6. Livrables
 
--   Fichiers STL des pièces 3D
+-   Fichiers STL de la pièces de la structure
     
 -   Code source ESP32 (Arduino)
     
@@ -132,5 +132,6 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 -   Exécution fluide de la séquence pick & place
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExODM1NTI5LC0xNjE1MzM3NTNdfQ==
+eyJoaXN0b3J5IjpbLTI2MzQ5MDg0Myw1MTE4MzU1MjksLTE2MT
+UzMzc1M119
 -->
