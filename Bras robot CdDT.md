@@ -5,7 +5,7 @@
 
 ### 1.1 Contexte
 
-Ce projet a pour objectif de développer un bras robotique à 4 degrés de liberté (DOF) muni d'un gripper, entièrement imprimé en 3D, et contrôlé par une carte ESP32. Il est destiné à réaliser des tâches de type pick & place, commandé à distance via une interface web.
+Ce projet a pour objectif de développer un bras robotique à 4 degrés de liberté (DOF) muni d'un gripper, entièrement imprimé en 3D, et contrôlé par une carte ESP32. Il est destiné à réaliser des tâches de type pick & place, commandé via une interface web.
 
 ### 1.2 Objectifs
 
@@ -132,6 +132,6 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 -   Exécution fluide de la séquence pick & place
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzQ5MDg0Myw1MTE4MzU1MjksLTE2MT
-UzMzc1M119
+eyJoaXN0b3J5IjpbLTE0NTU2OTIwLC0yNjM0OTA4NDMsNTExOD
+M1NTI5LC0xNjE1MzM3NTNdfQ==
 -->
