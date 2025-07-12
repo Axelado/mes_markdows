@@ -53,7 +53,7 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 
 -   Les positions enregistrées peuvent être rejouées en séquence.
     
--   Un délai fixe (modifiable) est appliqué entre les positions.
+-   Un délai fixe est appliqué entre les positions.
     
 
 ### 3.4 Interface web
@@ -80,9 +80,7 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 ### 4.2 Fiabilité
 
 -   Sécurité mécanique : angles limités pour éviter les blocages.
-    
--   Résilience à l’extinction : positions conservées dans la Flash.
-    
+        
 
 ### 4.3 Portabilité
 
@@ -132,6 +130,6 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 -   Exécution fluide de la séquence pick & place
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU2OTIwLC0yNjM0OTA4NDMsNTExOD
+eyJoaXN0b3J5IjpbNTUyNjQ3MzkxLC0yNjM0OTA4NDMsNTExOD
 M1NTI5LC0xNjE1MzM3NTNdfQ==
 -->
