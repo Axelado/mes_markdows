@@ -31,7 +31,7 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 
 
 ### 2.2 Diagramme Bloc
-  ![enter image description here](https://raw.githubusercontent.com/Axelado/mes_markdows/12affbb0eee149e201e2eceec5743818167214a5/Bras%20robotique%20diagramme%20bloc.drawio.svg)
+ ![enter image description here](https://raw.githubusercontent.com/Axelado/mes_markdows/12affbb0eee149e201e2eceec5743818167214a5/Bras%20robotique%20diagramme%20bloc.drawio.svg)
 
 
 ## 3. Spécifications fonctionnelles
@@ -130,6 +130,6 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 -   Exécution fluide de la séquence pick & place
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjM1ODI4NSwtMTEwNTIyNzA4NywtMj
-YzNDkwODQzLDUxMTgzNTUyOSwtMTYxNTMzNzUzXX0=
+eyJoaXN0b3J5IjpbNTUxNDcyOTQxLC0xMTA1MjI3MDg3LC0yNj
+M0OTA4NDMsNTExODM1NTI5LC0xNjE1MzM3NTNdfQ==
 -->
