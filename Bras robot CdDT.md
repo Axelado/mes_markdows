@@ -96,8 +96,6 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
     
 
 ## 5. Contraintes
-
--   ESP32 doit être alimenté séparément des servos.
     
 -   Servos SG90 limités à un couple faible : bras léger.
     
@@ -130,6 +128,6 @@ Le bras sera composé de segments imprimés en 3D, articulés par des servomoteu
 -   Exécution fluide de la séquence pick & place
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyNjQ3MzkxLC0yNjM0OTA4NDMsNTExOD
-M1NTI5LC0xNjE1MzM3NTNdfQ==
+eyJoaXN0b3J5IjpbLTExMDUyMjcwODcsLTI2MzQ5MDg0Myw1MT
+E4MzU1MjksLTE2MTUzMzc1M119
 -->
